@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description:
     'Impulsa tu negocio local con nuestros planes de optimización web: Básico, Presencia Local Pro y Mantenimiento Mensual. SEO local, velocidad y seguridad.',
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_SITE_URL ?? 'https://lupalocal.vercel.app'}/servicios`,
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL ?? 'https://lupa-local.vercel.app/'}/servicios`,
   },
   openGraph: {
     title: 'Planes para Impulsar Tu Negocio Local | LupaLocal',
     description: 'Optimización web, SEO local y mantenimiento para negocios locales. Convierte tu diagnóstico en resultados reales.',
-    url: `${process.env.NEXT_PUBLIC_SITE_URL ?? 'https://lupalocal.vercel.app'}/servicios`,
+    url: `${process.env.NEXT_PUBLIC_SITE_URL ?? 'https://lupa-local.vercel.app/'}/servicios`,
   },
 }
 import { ScanSearch, Rocket, Monitor, RefreshCw, CheckCircle2, ArrowLeft, Mail } from 'lucide-react'

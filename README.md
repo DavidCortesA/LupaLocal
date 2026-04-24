@@ -106,7 +106,7 @@ Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 NEXT_PUBLIC_API_TOKEN=tu_api_key_aqui
 
 # URL de tu sitio desplegado (para SEO y sitemap)
-NEXT_PUBLIC_SITE_URL=https://lupalocal.vercel.app
+NEXT_PUBLIC_SITE_URL=https://lupa-local.vercel.app/
 ```
 
 > **Obtén tu API key gratis** en [Google Cloud Console](https://console.cloud.google.com/) habilitando la API de *PageSpeed Insights*.

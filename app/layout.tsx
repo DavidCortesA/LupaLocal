@@ -14,7 +14,7 @@ const outfit = Outfit({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
 })
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://lupalocal.vercel.app'
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://lupa-local.vercel.app/'
 
 export const viewport: Viewport = {
   themeColor: [

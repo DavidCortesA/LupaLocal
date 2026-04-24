@@ -9,8 +9,8 @@ export default function Home() {
     '@graph': [
       {
         '@type': 'WebSite',
-        '@id': `${process.env.NEXT_PUBLIC_SITE_URL ?? 'https://lupalocal.vercel.app'}/#website`,
-        url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://lupalocal.vercel.app',
+        '@id': `${process.env.NEXT_PUBLIC_SITE_URL ?? 'https://lupa-local.vercel.app/'}/#website`,
+        url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://lupa-local.vercel.app/',
         name: 'LupaLocal',
         description: 'Auditoría Web Inteligente para Negocios Locales',
         inLanguage: 'es-MX',
@@ -18,7 +18,7 @@ export default function Home() {
           '@type': 'SearchAction',
           target: {
             '@type': 'EntryPoint',
-            urlTemplate: `${process.env.NEXT_PUBLIC_SITE_URL ?? 'https://lupalocal.vercel.app'}/resultados?url={url}`,
+            urlTemplate: `${process.env.NEXT_PUBLIC_SITE_URL ?? 'https://lupa-local.vercel.app/'}/resultados?url={url}`,
           },
           'query-input': 'required name=url',
         },
@@ -30,14 +30,14 @@ export default function Home() {
         operatingSystem: 'Web',
         offers: { '@type': 'Offer', price: '0', priceCurrency: 'MXN' },
         description: 'Herramienta gratuita de auditoría web para negocios locales. Analiza velocidad, SEO y seguridad en segundos.',
-        url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://lupalocal.vercel.app',
+        url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://lupa-local.vercel.app/',
       },
       {
         '@type': 'Organization',
-        '@id': `${process.env.NEXT_PUBLIC_SITE_URL ?? 'https://lupalocal.vercel.app'}/#organization`,
+        '@id': `${process.env.NEXT_PUBLIC_SITE_URL ?? 'https://lupa-local.vercel.app/'}/#organization`,
         name: 'LupaLocal',
-        url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://lupalocal.vercel.app',
-        logo: `${process.env.NEXT_PUBLIC_SITE_URL ?? 'https://lupalocal.vercel.app'}/icon.svg`,
+        url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://lupa-local.vercel.app/',
+        logo: `${process.env.NEXT_PUBLIC_SITE_URL ?? 'https://lupa-local.vercel.app/'}/icon.svg`,
         contactPoint: { '@type': 'ContactPoint', email: 'hola@lupalocal.com', contactType: 'customer service' },
       },
     ],
